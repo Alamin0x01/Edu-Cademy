@@ -4,9 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 const Instructors = () => {
   const { data, isLoading } = useQuery(["instructors"], async () => {
-    const res = await fetch(
-      "https://summer-wonderland-server.vercel.app/instructors"
-    );
+    const res = await fetch("http://localhost:5000/instructors");
     return res.json();
   });
   console.log(data);

@@ -11,9 +11,7 @@ const Classes = () => {
   const { data, isLoading } = useQuery({
     queryKey: ["classes"],
     queryFn: async () => {
-      const res = await fetch(
-        "https://summer-wonderland-server.vercel.app/classes"
-      );
+      const res = await fetch("http://localhost:5000/classes");
       return res.json();
     },
   });
@@ -28,7 +26,7 @@ const Classes = () => {
         name: user.name,
         email: user.email,
       };
-      fetch("https://summer-wonderland-server.vercel.app/selectClass", {
+      fetch("http://localhost:5000/selectClass", {
         method: "POST",
         headers: {
           "content-type": "application/json",

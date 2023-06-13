@@ -21,7 +21,7 @@ const SocialLogin = () => {
           image: user.photoURL,
           role: "student",
         };
-        fetch("https://summer-wonderland-server.vercel.app/adduser", {
+        fetch("http://localhost:5000/adduser", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(savedUser),
