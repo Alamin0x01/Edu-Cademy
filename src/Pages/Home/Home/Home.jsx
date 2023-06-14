@@ -5,6 +5,7 @@ import PopularInstructors from "../PopularInstructors/PopularInstructors";
 import Review from "../Review/Review";
 import bgAnimation0 from "../../../assets/bg-animation.json";
 import Lottie from "lottie-react";
+import ExtraSection from "./ExtraSection/ExtraSection";
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
       <PopularClasses />
       <PopularInstructors />
       <Review></Review>
+      <ExtraSection></ExtraSection>
     </div>
   );
 };
