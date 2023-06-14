@@ -33,7 +33,7 @@ const PopularInstructors = () => {
         {data?.map((item, index) => (
           <motion.div
             key={item._id}
-            className="card bg-teal-200 shadow-xl"
+            className="card w-96 h-96 bg-teal-200 shadow-xl"
             ref={index === 0 ? ref : null}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -42,7 +42,7 @@ const PopularInstructors = () => {
             <figure>
               <img src={item.image} alt="" />
             </figure>
-            <div className="card-body">
+            <div className="card-body ">
               <motion.h2
                 className="card-title"
                 initial={{ opacity: 0, y: -10 }}
@@ -72,7 +72,7 @@ const PopularInstructors = () => {
       <div className="flex justify-center mt-3">
         <Link to="/instructors">
           <motion.button
-            className="btn btn-primary hover:bg-white hover:text-primary"
+            className="btn btn-info"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >

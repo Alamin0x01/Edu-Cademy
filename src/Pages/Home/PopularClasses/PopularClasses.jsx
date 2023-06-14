@@ -29,11 +29,12 @@ const PopularClasses = () => {
   return (
     <div className="mb-3">
       <SectionTitle title="Popular Classes" />
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
         {data?.map((item, index) => (
           <motion.div
             key={item._id}
-            className="card bg-sky-200 shadow-xl"
+            className="card w-96 h-96 bg-sky-200 shadow-xl"
             ref={index === 0 ? ref : null}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
