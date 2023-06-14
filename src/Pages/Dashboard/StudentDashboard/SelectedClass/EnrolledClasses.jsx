@@ -27,7 +27,7 @@ const EnrolledClasses = () => {
   return (
     <div>
       <Helmet>
-        <title>Enrolled Classes | Summer Wonderland</title>
+        <title>Enrolled Classes | Edu-Cademy</title>
       </Helmet>
       <SectionTitle title="My Enrolled Classes" />
       <div className="overflow-x-auto">

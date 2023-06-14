@@ -52,7 +52,7 @@ const Login = () => {
   return (
     <div>
       <Helmet>
-        <title>Login | Summer Wonderland</title>
+        <title>Login | Edu-Cademy</title>
       </Helmet>
       <SectionTitle title="Login" />
       <div className="hero min-h-screen">

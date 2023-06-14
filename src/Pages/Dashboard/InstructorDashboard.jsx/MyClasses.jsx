@@ -27,7 +27,7 @@ const MyClasses = () => {
   return (
     <div>
       <Helmet>
-        <title>My Classes | Summer Wonderland</title>
+        <title>My Classes | Edu-Cademy</title>
       </Helmet>
       <SectionTitle title="My Classes" />
       <div className="overflow-x-auto">

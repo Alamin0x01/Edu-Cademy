@@ -13,7 +13,7 @@ const Payment = () => {
   return (
     <div>
       <Helmet>
-        <title>Payment | Summer Wonderland</title>
+        <title>Payment | Edu-Cademy</title>
       </Helmet>
       <SectionTitle title="Payment" />
       <Elements stripe={stripePromise}>

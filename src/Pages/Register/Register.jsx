@@ -60,7 +60,7 @@ const Register = () => {
   return (
     <div className="w-3/5 mx-auto shadow-2xl bg-base-100">
       <Helmet>
-        <title>Register | Summer Wonderland</title>
+        <title>Register | Edu-Cademy</title>
       </Helmet>
       <SectionTitle title="Register" />
       <form onSubmit={handleSubmit(onSubmit)} className="card-body">
