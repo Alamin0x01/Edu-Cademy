@@ -33,7 +33,7 @@ const PopularClasses = () => {
         {data?.map((item, index) => (
           <motion.div
             key={item._id}
-            className="card bg-base-100 shadow-xl"
+            className="card bg-sky-200 shadow-xl"
             ref={index === 0 ? ref : null}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -61,7 +61,7 @@ const PopularClasses = () => {
               </motion.p>
               <div className="flex justify-evenly">
                 <p>Total Enrolled: {item.enrolled}</p>
-                <p>Price: {item.price}</p>
+                <p>Price: {item.price}$</p>
               </div>
             </div>
           </motion.div>
@@ -70,7 +70,7 @@ const PopularClasses = () => {
       <div className="flex justify-center mt-3">
         <Link to="/classes">
           <motion.button
-            className="btn btn-primary hover:bg-white hover:text-primary"
+            className="btn btn-info"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
