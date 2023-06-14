@@ -70,7 +70,7 @@ const ManageUser = () => {
               <th>
                 <button
                   onClick={() => handleMakeAdmin(user)}
-                  className="btn btn-primary btn-sm"
+                  className="btn btn-info btn-sm"
                   disabled={user.role === "admin"}
                 >
                   Make Admin
@@ -79,7 +79,7 @@ const ManageUser = () => {
               <th>
                 <button
                   onClick={() => handleMakeInstructor(user)}
-                  className="btn btn-warning btn-sm"
+                  className="btn btn-accent btn-sm"
                   disabled={user.role === "instructor"}
                 >
                   Make Instructor
