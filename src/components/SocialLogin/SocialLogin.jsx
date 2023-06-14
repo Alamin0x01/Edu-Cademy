@@ -19,7 +19,7 @@ const SocialLogin = () => {
           image: user.photoURL,
           role: "student",
         };
-        fetch("http://localhost:5000/adduser", {
+        fetch("https://summer-camp-server-side-six.vercel.app/adduser", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(savedUser),
