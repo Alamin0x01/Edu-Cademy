@@ -10,11 +10,11 @@ import SelectedClass from "../Pages/Dashboard/StudentDashboard/SelectedClass/Sel
 import PrivateRoute from "./PrivateRoute";
 import Payment from "../Pages/Dashboard/Payment/Payment";
 import AdminRoute from "./AdminRoute";
+import InstructorRoute from "./InstructorRoute";
 import StudentRoute from "./StudentRoute";
 import ManageUser from "../Pages/Dashboard/AdminDashboard/ManageUser";
 import EnrolledClasses from "../Pages/Dashboard/StudentDashboard/SelectedClass/EnrolledClasses";
 import PaymentHistory from "../Pages/Dashboard/StudentDashboard/SelectedClass/PaymentHistory";
-import InstructorRoute from "./InstructorRoute";
 import AddClass from "../Pages/Dashboard/InstructorDashboard.jsx/AddClass";
 import MyClasses from "../Pages/Dashboard/InstructorDashboard.jsx/MyClasses";
 import ManageClasses from "../Pages/Dashboard/AdminDashboard/ManageClasses";

@@ -6,6 +6,7 @@ const InstructorRoute = ({ children }) => {
   const { user, loading } = useAuth();
   const [isInstructor, isInstructorLoading] = useInstructor();
   const location = useLocation();
+
   if (loading || isInstructorLoading) {
     return (
       <div className="flex justify-center items-center">
