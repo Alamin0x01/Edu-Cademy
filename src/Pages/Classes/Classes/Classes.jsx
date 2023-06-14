@@ -67,14 +67,14 @@ const Classes = () => {
         {data?.map((item) => (
           <div
             key={item._id}
-            className={`card  shadow-xl ${
+            className={`card  w-96 h-96 bg-sky-200 shadow-xl mt-2 ${
               item.available_seats === 0 ? "bg-red-500" : "bg-base-100"
             }`}
           >
             <figure>
               <img src={item.image} alt="" />
             </figure>
-            <div className="card-body">
+            <div className="card-body bg-cyan-100 ">
               <h2 className="card-title">{item.name}</h2>
               <p className="text-2xl font-semibold">
                 Instructor: {item.instructor}
@@ -89,7 +89,7 @@ const Classes = () => {
                   onClick={() => {
                     handleAddToDb(item);
                   }}
-                  className="btn btn-primary"
+                  className="btn btn-outline btn-info"
                   disabled={item.available_seats === 0 || !isStudent}
                 >
                   Select Class
