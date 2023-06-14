@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet-async";
 import payment from "../../../assets/payment.json";
 import Lottie from "lottie-react";
 const stripePromise = loadStripe(import.meta.env.VITE_PAYMENT_GATEWAY_PK);
+
 const Payment = () => {
   const { state } = useLocation();
   const price = state?.classPrice;
