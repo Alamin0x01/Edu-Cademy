@@ -5,6 +5,7 @@ import useAxiosSecure from "./useAxiosSecure";
 const useSelectedClass = () => {
   const { user, loading } = useAuth();
   const [axiosSecure] = useAxiosSecure();
+
   const { data: selectedClass, refetch } = useQuery({
     queryKey: ["selectedClass", user?.email],
     enabled: !loading,
