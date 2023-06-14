@@ -25,7 +25,7 @@ const DashboardLayout = () => {
           </div>
           <label
             htmlFor="my-drawer-2"
-            className="btn btn-primary drawer-button lg:hidden"
+            className="btn btn-info drawer-button lg:hidden"
           >
             <svg
               className="swap-off fill-current"
@@ -40,7 +40,7 @@ const DashboardLayout = () => {
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-80 h-full bg-sky-200 text-base-content">
             {isAdmin && (
               <>
                 <li>
@@ -95,7 +95,7 @@ const DashboardLayout = () => {
             <li className="mt-auto">
               <button
                 onClick={handleLogout}
-                className="btn btn-error hover:text-error btn-sm w-2/4"
+                className="btn btn-error btn-outline hover:text-error btn-sm w-2/4"
               >
                 Logout
               </button>
