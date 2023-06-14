@@ -93,7 +93,7 @@ const AddClass = () => {
         {/* errors will return when field validation fails  */}
         {errors.exampleRequired && <span>This field is required</span>}
 
-        <input className="btn btn-primary" type="submit" />
+        <input className="btn btn-info" type="submit" />
       </form>
     </div>
   );
