@@ -22,6 +22,7 @@ const Banner = () => {
           >
             <div className="min-h-[calc(100vh-72px)] bg-gradient-to-r from-slate-800 to-transparent md:from-transparent md:to-cyan-800 grid grid-cols-12 items-center px-10 xl:px-20">
               <div className="col-span-1 md:col-span-6 lg:col-span-8"></div>
+
               <div className="space-y-3 col-span-11 md:col-span-6 lg:col-span-4 text-slate-300 font-semibold">
                 <p>Fuel your imagination!</p>
                 <h2 className="my-title text-cyan-300 !text-6xl">
