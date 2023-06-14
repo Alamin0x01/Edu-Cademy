@@ -11,13 +11,12 @@ const ErrorPage = () => {
       </Helmet>
       <section className="flex">
         <div className="container flex flex-col items-center justify-center">
-          {/* Lottie Animation */}
           <div className="relative lg:w-1/2 ">
-            <div className="w-full lg:w-4/5  h-auto sm:h-96">
+            <div className=" lg:w-11/12  sm:h-96">
               <Lottie animationData={errorPage} loop={true} />
             </div>
           </div>
-          <div className="text-center mt-52 md:pl-36">
+          <div className="text-center mt-32 mr-52 md:pl-36">
             <p className="text-2xl font-semibold md:text-3xl mt-5  text-red-600">
               {error?.message}
             </p>
