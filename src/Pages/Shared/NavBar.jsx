@@ -60,13 +60,10 @@ const NavBar = () => {
           )}
         </li>
       )}
-      <li className="text-xl">
-        <DarkMode />
-      </li>
     </>
   );
   return (
-    <div className="navbar w-9/12 mx-auto mt-3 relative">
+    <div className="navbar mx-auto mt-3 relative">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -117,6 +114,9 @@ const NavBar = () => {
           </Link>
         )}
       </div>
+      <li className="ml-3">
+        <DarkMode />
+      </li>
     </div>
   );
 };
