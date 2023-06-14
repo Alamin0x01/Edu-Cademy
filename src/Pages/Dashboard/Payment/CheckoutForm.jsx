@@ -1,9 +1,9 @@
-import "./CheckoutForm.css";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useEffect, useState } from "react";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import useAuth from "../../../hooks/useAuth";
 import Swal from "sweetalert2";
+import "./CheckoutForm.css";
 
 const CheckoutForm = ({ selectedClass, price }) => {
   const stripe = useStripe();
@@ -122,7 +122,7 @@ const CheckoutForm = ({ selectedClass, price }) => {
           }}
         />
         <button
-          className="btn  btn-primary btn-sm"
+          className="btn  btn-outline btn-success btn-sm ml-52"
           type="submit"
           disabled={!stripe || !clientSecret || processing}
         >

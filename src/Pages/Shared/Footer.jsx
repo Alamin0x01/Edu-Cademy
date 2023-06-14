@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import logo from "/logo.png";
+
 const Footer = () => {
   return (
     <footer className="footer mt-3 p-10 bg-base-200 text-base-content">
       <div>
-        <img className="w-16" src={logo} alt="" />
+        <img className="w-16" src="www.fd.hh" alt="" />
         <p className="text-xl text-primary font-bold">Edu-Cademy</p>
         <br />
         <p className="font-bold">©Edu-Cademy 2023</p>
