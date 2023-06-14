@@ -90,7 +90,11 @@ const NavBar = () => {
           </ul>
         </div>
         <Link to="/" className="navbar-brand hidden md:block">
-          <img className="w-12 rounded-md" src="/logo.png" alt="" />
+          <img
+            className=" w-32 "
+            src="https://i.ibb.co/bQxpnbc/of-HD-N1-QIFy-I4-AAAAASUVORK5-CYII.jpg"
+            alt="logo"
+          />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex items-center">
@@ -100,21 +104,24 @@ const NavBar = () => {
         {user ? (
           <>
             <div className="avatar">
-              <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <div className="w-12 rounded-full ring ring-cyan-400 ring-offset-base-100 ring-offset-2">
                 <img src={user.photoURL} />
               </div>
             </div>
-            <button className="btn btn-error ms-3" onClick={handleLogout}>
+            <button
+              className="btn btn-outline btn-error  ms-3"
+              onClick={handleLogout}
+            >
               Logout
             </button>
           </>
         ) : (
-          <Link to="/login" className="btn btn-primary">
+          <Link to="/login" className="btn btn-outline btn-success">
             Login
           </Link>
         )}
       </div>
-      <li className="ml-3">
+      <li className="ml-3 text-cyan-500">
         <DarkMode />
       </li>
     </div>
