@@ -7,7 +7,6 @@ const SocialLogin = () => {
   const { googleSignIn } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
-
   const from = location.state?.from?.pathname || "/";
 
   const handleGoogleSignIn = () => {
@@ -51,8 +50,9 @@ const SocialLogin = () => {
       <div className="w-full text-center my-4">
         <button
           onClick={handleGoogleSignIn}
-          className="btn btn-circle btn-primary hover:bg-base-100 hover:text-primary"
+          className="btn btn-info btn-outline"
         >
+          Signin with Google
           <FaGoogle></FaGoogle>
         </button>
       </div>
