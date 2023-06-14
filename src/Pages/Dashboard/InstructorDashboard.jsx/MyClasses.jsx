@@ -32,7 +32,6 @@ const MyClasses = () => {
       <SectionTitle title="My Classes" />
       <div className="overflow-x-auto">
         <table className="table">
-          {/* head */}
           <thead>
             <tr>
               <th></th>
@@ -56,7 +55,7 @@ const MyClasses = () => {
                 <td>{classItem.status}</td>
                 <td>{classItem.feedback}</td>
                 <td>
-                  <button className="btn btn-primary btn-sm">Edit</button>
+                  <button className="btn btn-info btn-sm">Edit</button>
                 </td>
               </tr>
             ))}
