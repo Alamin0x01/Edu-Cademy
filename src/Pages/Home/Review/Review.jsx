@@ -1,13 +1,12 @@
 import Marquee from "react-fast-marquee";
+import SectionTitle from "../../Shared/SectionTitle";
 
 const Review = () => {
   return (
     <>
-      <h2 className="text-center header-text text-5xl font-bold mt-8">
-        Client reviews
-      </h2>
+      <SectionTitle title="Student reviews" />
       <Marquee className="mt-8 mb-8">
-        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-blue-700 dark:text-gray-100">
+        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-cyan-400 dark:text-gray-100">
           <div className="flex justify-between p-4">
             <div className="flex space-x-4">
               <div>
@@ -19,7 +18,7 @@ const Review = () => {
               </div>
               <div className="text-white">
                 <h4 className="font-bold">RTDTE Jenkins</h4>
-                <span className="text-xs dark:text-gray-400">2 days ago</span>
+                <span className="text-xs dark:text-gray-600">2 days ago</span>
               </div>
             </div>
             <div className="flex items-center space-x-2 dark:text-yellow-500">
@@ -35,21 +34,14 @@ const Review = () => {
           </div>
           <div className="p-4 space-y-2 text-sm text-white">
             <p>
-              With being new I had many apprehensions about ordering. How the
-              process has been simple and better than expected. I kick myself
-              for not doing this earlier. I even received a call to remind me to
-              check my resale information. They were not asking for my personal
-              information just a reminder to go to the site and review.
-              Excellent customer service and easy to work with companies
-            </p>
-            <p>
-              Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-              mauris cursus venenatis. Maecenas gravida urna vitae accumsan
-              feugiat. Vestibulum commodo, ante sit urna purus rutrum sem.
+              With being new I had many apprehensions about ordering. They were
+              not asking for my personal information just a reminder to go to
+              the site and review. Excellent customer service and easy to work
+              with companies
             </p>
           </div>
         </div>
-        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-blue-700  dark:text-gray-100">
+        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-cyan-400  dark:text-gray-100">
           <div className="flex justify-between p-4">
             <div className="flex space-x-4">
               <div>
@@ -61,7 +53,7 @@ const Review = () => {
               </div>
               <div className="text-white">
                 <h4 className="font-bold">JSAK Hirdoy</h4>
-                <span className="text-xs dark:text-gray-400">2 days ago</span>
+                <span className="text-xs dark:text-gray-600">2 days ago</span>
               </div>
             </div>
             <div className="flex items-center space-x-2 dark:text-yellow-500">
@@ -77,21 +69,14 @@ const Review = () => {
           </div>
           <div className="p-4 space-y-2 text-sm text-white">
             <p>
-              This site is created to steal peoples money. $1285 was stolen from
-              me by( Guangzhu Huimei Technology Co, Ltd) and the help center did
+              This site is created to steal peoples money. The help center did
               nothing. I do not recommend dealing with this fake site. I bought
               a massage machine which worked only for 2 months., be careful from
               this company, their products are cheap quality
             </p>
-            <p>
-              Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu
-              mauris cursus venenatis. Maecenas gravida urna vitae accumsan
-              feugiat. Vestibulum commodo, ante sit urna purus rutrum sem. a
-              massage machine which worked only for 2 months., be careful from
-            </p>
           </div>
         </div>
-        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-blue-700 dark:text-gray-100">
+        <div className="container mr-4 flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 bg-cyan-400 dark:text-gray-100">
           <div className="flex justify-between p-4">
             <div className="flex space-x-4">
               <div>
@@ -103,7 +88,7 @@ const Review = () => {
               </div>
               <div className="text-white">
                 <h4 className="font-bold">Leroy Jenkins</h4>
-                <span className="text-xs dark:text-gray-400">2 days ago</span>
+                <span className="text-xs dark:text-gray-600">2 days ago</span>
               </div>
             </div>
             <div className="flex items-center space-x-2 dark:text-yellow-500">
@@ -123,13 +108,6 @@ const Review = () => {
               mauris cursus venenatis. Maecenas gravida urna vitae accumsan
               feugiat. Vestibulum commodo, ante sit urna purus rutrum sem. a
               massage machine which worked only for 2 months., be careful from
-            </p>
-            <p>
-              This site is created to steal peoples money. $1285 was stolen from
-              me by( Guangzhu Huimei Technology Co, Ltd) and the help center did
-              nothing. I do not recommend dealing with this fake site. I bought
-              a massage machine which worked only for 2 months., be careful from
-              this company, their products are cheap quality
             </p>
           </div>
         </div>
