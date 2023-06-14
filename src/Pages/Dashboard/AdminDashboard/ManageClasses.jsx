@@ -20,7 +20,6 @@ const ManageClasses = () => {
       return res.data;
     },
   });
-  console.log(classes);
 
   const handleApprove = async (id) => {
     Swal.fire({
@@ -106,7 +105,6 @@ const ManageClasses = () => {
       <SectionTitle title="Manage Classes" />
       <div className="overflow-x-auto">
         <table className="table">
-          {/* head */}
           <thead>
             <tr>
               <th></th>
@@ -142,7 +140,7 @@ const ManageClasses = () => {
                 <td className="flex gap-3">
                   <button
                     onClick={() => handleApprove(classItem._id)}
-                    className="btn btn-primary btn-sm"
+                    className="btn btn-info btn-sm"
                     disabled={classItem.status === "approved"}
                   >
                     Approve
