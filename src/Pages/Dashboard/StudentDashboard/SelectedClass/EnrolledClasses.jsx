@@ -32,7 +32,7 @@ const EnrolledClasses = () => {
       <SectionTitle title="My Enrolled Classes" />
       <div className="overflow-x-auto">
         <table className="table">
-          <thead className="btn-primary text-white mt-8">
+          <thead className="btn-info text-white mt-8">
             <tr>
               <th></th>
               <th>Class Name</th>

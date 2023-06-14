@@ -37,7 +37,7 @@ const SelectedClass = () => {
       <div className="overflow-x-auto">
         <table className="table">
           {/* head */}
-          <thead className="bg-primary text-white">
+          <thead className="bg-info text-white">
             <tr>
               <th></th>
               <th>Class Name</th>
@@ -56,7 +56,7 @@ const SelectedClass = () => {
                 <td>{item.instructor}</td>
                 <td>
                   <Link state={item} to="/dashboard/payment">
-                    <button className="btn btn-sm btn-primary">Pay</button>
+                    <button className="btn btn-sm btn-success">Pay</button>
                   </Link>
                 </td>
                 <td>
