@@ -26,7 +26,7 @@ const Banner = () => {
               <div className="space-y-3 col-span-11 md:col-span-6 lg:col-span-4 text-slate-300 font-semibold">
                 <p>Fuel your imagination!</p>
                 <h2 className="my-title text-cyan-300 !text-6xl">
-                  Extraordinary <br /> Learning Technology
+                  Online <br /> Language School
                 </h2>
                 <p>
                   Premium course for the genuine start. The best place to your
@@ -72,10 +72,10 @@ const Banner = () => {
               <div className="space-y-3 col-span-11 md:col-span-6 lg:col-span-4 text-slate-300 font-semibold">
                 <p>Big fun for !</p>
                 <h2 className="my-title text-cyan-300 !text-6xl">
-                  A World <br /> To Explore
+                  Learn and <br /> Explore World
                 </h2>
                 <p>
-                  Active Technology for smart and active peoples. Bring fun and
+                  Active learn for smart and active peoples. Bring fun and
                   non-stop learning for your little ones.
                 </p>
                 <button className="btn border-none bg-cyan-400 hover:bg-cyan-700">
