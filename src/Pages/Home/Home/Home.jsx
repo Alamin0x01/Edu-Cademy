@@ -13,7 +13,7 @@ const Home = () => {
         <title>Edu-Cademy</title>
       </Helmet>
       <Banner />
-      <div className="w-full mt-96 h-full sm:h-full absolute">
+      <div className="w-full mt-96 h-full sm:h-full absolute -z-10">
         <Lottie animationData={bgAnimation0} loop={true} />
       </div>
       <PopularClasses />

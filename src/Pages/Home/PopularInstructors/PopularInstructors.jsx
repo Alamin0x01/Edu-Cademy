@@ -74,7 +74,7 @@ const PopularInstructors = () => {
       <div className="flex justify-center mt-3">
         <Link to="/instructors">
           <motion.button
-            className="btn btn-info"
+            className="btn btn-info btn-outline"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
