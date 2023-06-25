@@ -26,6 +26,12 @@ Edu-Cademy is a site for exploring foreign Language Learning School.
 - Node.js
 - MongoDB
 
+## Complete Project
+
+Github Repo -> [Client-Side](https://github.com/Alamin0x01/Edu-Cademy)
+
+Github Repo -> [Server-Side](https://github.com/Alamin0x01/Edu-Cademy-Server-Side)
+
 ### How to use this project
 
 #### Step 1 : open command prompt and type this command.
