@@ -26,7 +26,10 @@ const Instructors = () => {
       <SectionTitle title="Instructors" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5">
         {data?.map((item) => (
-          <div key={item._id} className="card w-96 h-96 bg-teal-200 shadow-xl">
+          <div
+            key={item._id}
+            className="card w-96 h-96 bg-teal-200 shadow-xl mt-3"
+          >
             <figure>
               <img src={item.image} alt="" />
             </figure>
