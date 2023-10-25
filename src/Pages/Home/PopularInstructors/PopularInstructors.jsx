@@ -35,7 +35,7 @@ const PopularInstructors = () => {
         {data?.map((item, index) => (
           <motion.div
             key={item._id}
-            className="card w-96 h-96 bg-teal-200 shadow-xl"
+            className="card w-96 h-96 bg-teal-200 shadow-xl mt-3"
             ref={index === 0 ? ref : null}
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
