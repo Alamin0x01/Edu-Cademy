@@ -92,7 +92,7 @@ const NavBar = () => {
         <Link to="/" className="navbar-brand hidden md:block">
           <img
             className=" w-32 "
-            src="https://i.ibb.co/bQxpnbc/of-HD-N1-QIFy-I4-AAAAASUVORK5-CYII.jpg"
+            src="https://www.educademy.fr/wp-content/uploads/2022/04/educademy_dark-1.svg"
             alt="logo"
           />
         </Link>

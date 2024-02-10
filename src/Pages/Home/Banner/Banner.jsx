@@ -41,7 +41,7 @@ const Banner = () => {
           <SwiperSlide
             className="bg-cover cursor-grab"
             style={{
-              backgroundImage: `url('https://educationnorthwest.org/sites/default/files/graphics/teacher-instruction-ell.png')`,
+              backgroundImage: `url('https://ua-networks.com/assets/images/blog/imglernbl.jpg')`,
             }}
           >
             <div className="min-h-[calc(100vh-72px)] bg-gradient-to-r from-emerald-200 to-transparent md:from-transparent md:to-cyan-800 grid grid-cols-12 items-center px-10 xl:px-20">
@@ -64,7 +64,7 @@ const Banner = () => {
           <SwiperSlide
             className="bg-cover bg-center cursor-grab"
             style={{
-              backgroundImage: `url('https://ua-networks.com/assets/images/blog/imglernbl.jpg')`,
+              backgroundImage: `url('https://educationnorthwest.org/sites/default/files/graphics/teacher-instruction-ell.png')`,
             }}
           >
             <div className="min-h-[calc(100vh-72px)] bg-gradient-to-r  from-slate-800 to-transparent md:from-transparent md:to-cyan-800 grid grid-cols-12 items-center px-10 xl:px-20">

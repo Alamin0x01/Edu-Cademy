@@ -12,8 +12,8 @@ const Footer = () => {
       <div className="flex justify-between flex-col lg:flex-row items-center text-center lg:space-y-0 space-y-6">
         <div>
           <img
-            className="h-12 ml-9"
-            src="https://i.ibb.co/bQxpnbc/of-HD-N1-QIFy-I4-AAAAASUVORK5-CYII.jpg"
+            className="h-10 ml-9"
+            src="https://www.educademy.fr/wp-content/uploads/2022/04/educademy_dark-1.svg"
             alt=""
           />
           <p>
